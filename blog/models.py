@@ -7,8 +7,12 @@ from django.contrib.auth.models import AbstractBaseUser
 # Create your models here.
 
 
-class User(AbstractBaseUser):
-    username = models.CharField(max_length=20,verbose_name='用户名')
+class User(models.Model):
+    username = models.CharField(max_length=20, verbose_name='用户名')
+    password = models.CharField(max_length=20, verbose_name='密码')
+    desc = models.CharField(max_length=20, verbose_name='备注')
+    email = models.EmailField(verbose_name='邮箱')
+    last_login = models.DateTimeField(auto_now_add=True, verbose_name='最后登录时间')
 
     class Meta:
         verbose_name = '用户'
@@ -19,7 +23,7 @@ class User(AbstractBaseUser):
 
 
 class Category(models.Model):
-    name = models.CharField(max_length=30,verbose_name='分类名称')
+    name = models.CharField(max_length=30, verbose_name='分类名称')
     index = models.IntegerField(verbose_name='分类排序')
 
     class Meta:
@@ -31,7 +35,7 @@ class Category(models.Model):
 
 
 class Tag(models.Model):
-    name = models.CharField(max_length=16,verbose_name="标签名称")
+    name = models.CharField(max_length=16, verbose_name="标签名称")
 
     class Meta:
         verbose_name = '标签'
