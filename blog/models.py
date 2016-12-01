@@ -8,7 +8,7 @@ from django.contrib.auth.models import AbstractBaseUser
 
 
 class User(AbstractBaseUser):
-    pass
+    username = models.CharField(max_length=20,verbose_name='用户名')
 
     class Meta:
         verbose_name = '用户'
@@ -27,7 +27,7 @@ class Category(models.Model):
         verbose_name_plural = verbose_name
 
     def __unicode__(self):
-        return self.username
+        return self.name
 
 
 class Tag(models.Model):
@@ -38,7 +38,7 @@ class Tag(models.Model):
         verbose_name_plural = verbose_name
 
     def __unicode__(self):
-        return self.username
+        return self.name
 
 
 class Article(models.Model):
@@ -57,7 +57,7 @@ class Article(models.Model):
         ordering = ['-date_publish']
 
     def __unicode__(self):
-        return self.username
+        return self.title
 
 
 class Comment(models.Model):
@@ -73,7 +73,7 @@ class Comment(models.Model):
         ordering = ['-date_publish']
 
     def __unicode__(self):
-        return self.username
+        return self.name
 
 
 class Ad(models.Model):
