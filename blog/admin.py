@@ -14,6 +14,13 @@ class ArticleAdmin(admin.ModelAdmin):
     list_display_links = ('title', 'desc',)
     list_editable = ('click_count',)
 
+    class Media:
+        js = (
+            '/static/js/kindeditor-4.1.10/kindeditor-min.js',
+            '/static/js/kindeditor-4.1.10/lang/zh-CN.js',
+            '/static/js/kindeditor-4.1.10/config.js',
+        )
+
 
 class LinksAdmin(admin.ModelAdmin):
     list_display = ('title', 'desc', 'callback_url', 'date_publish',)
