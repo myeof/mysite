@@ -83,7 +83,7 @@ class Comment(models.Model):
 class Ad(models.Model):
     title = models.CharField(max_length=50, verbose_name='广告标题')
     desc = models.CharField(max_length=50, verbose_name='广告描述')
-    img_url = models.ImageField(upload_to='ad/%Y/%m', verbose_name='图片路径')
+    img_url = models.ImageField(upload_to='uploads/ad/%Y/%m', verbose_name='图片路径')
     callback_url = models.URLField(null=True, blank=True, verbose_name='回调url')
     date_publish = models.DateTimeField(auto_now_add=True, verbose_name='发布时间')
     index = models.IntegerField(default=999, verbose_name='排列顺序（从小到大）')
