@@ -17,6 +17,7 @@ class User(models.Model):
     class Meta:
         verbose_name = '用户'
         verbose_name_plural = verbose_name
+        ordering = ['-id']
 
     def __unicode__(self):
         return self.username
@@ -29,6 +30,7 @@ class Category(models.Model):
     class Meta:
         verbose_name = '分类'
         verbose_name_plural = verbose_name
+        ordering = ['index', 'id']
 
     def __unicode__(self):
         return self.name
@@ -40,6 +42,7 @@ class Tag(models.Model):
     class Meta:
         verbose_name = '标签'
         verbose_name_plural = verbose_name
+        ordering = ['id']
 
     def __unicode__(self):
         return self.name
@@ -50,10 +53,11 @@ class Article(models.Model):
     desc = models.CharField(max_length=100, verbose_name='文字描述')
     content = models.TextField(verbose_name='文字内容')
     click_count = models.IntegerField(default=0, verbose_name='点击次数')
+    is_recommend = models.BooleanField(default=False, verbose_name='是否推荐')
     date_publish = models.DateTimeField(auto_now_add=True, verbose_name='发布时间')
     user = models.ForeignKey(User, verbose_name='作者')
     category = models.ForeignKey(Category, verbose_name='分类')
-    tag = models.ForeignKey(Tag, verbose_name='标签')
+    tag = models.ManyToManyField(Tag, verbose_name='标签')
 
     class Meta:
         verbose_name = '文章'
@@ -69,6 +73,7 @@ class Comment(models.Model):
     email = models.EmailField(verbose_name='邮箱')
     content = models.CharField(max_length=2000, verbose_name='评论内容')
     date_publish = models.DateTimeField(auto_now_add=True, verbose_name='评论时间')
+    article = models.ForeignKey(Article, blank=True, null=True, verbose_name='文章')
     pid = models.ForeignKey('self', blank=True, null=True, verbose_name='父级评论')
 
     class Meta:
@@ -83,7 +88,7 @@ class Comment(models.Model):
 class Ad(models.Model):
     title = models.CharField(max_length=50, verbose_name='广告标题')
     desc = models.CharField(max_length=50, verbose_name='广告描述')
-    img_url = models.ImageField(upload_to='uploads/ad/%Y/%m', verbose_name='图片路径')
+    img_url = models.ImageField(upload_to='ad/%Y/%m', verbose_name='图片路径')
     callback_url = models.URLField(null=True, blank=True, verbose_name='回调url')
     date_publish = models.DateTimeField(auto_now_add=True, verbose_name='发布时间')
     index = models.IntegerField(default=999, verbose_name='排列顺序（从小到大）')

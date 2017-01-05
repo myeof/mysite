@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe8669b-ac9d-4872-8a03-af9ddff38023" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/upload.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/kindeditor-4.1.10/lang/zh-CN.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/lottery.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite.sqlite3" afterPath="$PROJECT_DIR$/mysite.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/admin.py" afterPath="$PROJECT_DIR$/blog/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/urls.py" afterPath="$PROJECT_DIR$/mysite/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/kindeditor-4.1.10/config.js" afterPath="$PROJECT_DIR$/static/js/kindeditor-4.1.10/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/kindeditor-4.1.10/kindeditor-all.js" afterPath="$PROJECT_DIR$/static/js/kindeditor-4.1.10/kindeditor-all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/kindeditor-4.1.10/kindeditor.js" afterPath="$PROJECT_DIR$/static/js/kindeditor-4.1.10/kindeditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <ignored path="mysite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,54 +40,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+            <state relative-caret-position="281">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="e#511#517#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagination.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pagination.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/kindeditor-4.1.10/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="195">
+              <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
               <folding>
-                <element signature="e#24#71#0" expanded="true" />
+                <element signature="e#24#79#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-147">
+              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,6 +90,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -95,12 +100,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog/admin.py" />
-        <option value="$PROJECT_DIR$/blog/models.py" />
-        <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/static/js/kindeditor-4.1.10/config.js" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/static/js/kindeditor-4.1.10/kindeditor.js" />
+        <option value="$PROJECT_DIR$/static/js/kindeditor-4.1.10/kindeditor-all.js" />
+        <option value="$PROJECT_DIR$/blog/upload.py" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/log/all.log" />
+        <option value="$PROJECT_DIR$/blog/models.py" />
+        <option value="$PROJECT_DIR$/blog/admin.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
       </list>
     </option>
   </component>
@@ -111,10 +122,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="776" />
+    <option name="width" value="1600" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -169,6 +178,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -181,6 +204,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PYTHON\git\mysite\static\js\kindeditor-4.1.10\lang" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.mysite">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -289,6 +319,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -538,10 +574,31 @@
       <option name="project" value="LOCAL" />
       <updated>1480924635466</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit&#10;&#10;">
+      <created>1480933546855</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1480933546855</updated>
+    </task>
+    <task id="LOCAL-00015" summary="admin/static/">
+      <created>1480933703143</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1480933703143</updated>
+    </task>
+    <task id="LOCAL-00016" summary="lottery.js">
+      <created>1481115445163</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1481115445163</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -551,26 +608,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="0" y="0" width="1600" height="860" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23139158" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19025974" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28398386" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3716952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37826684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -616,7 +673,10 @@
     <MESSAGE value="kindeditor" />
     <MESSAGE value="uploads" />
     <MESSAGE value="STATIC_ROOT&#10;python manage.py collectstatic" />
-    <option name="LAST_COMMIT_MESSAGE" value="STATIC_ROOT&#10;python manage.py collectstatic" />
+    <MESSAGE value="commit&#10;&#10;" />
+    <MESSAGE value="admin/static/" />
+    <MESSAGE value="lottery.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="lottery.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -625,11 +685,51 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="120" column="60" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#640#672#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/kindeditor-4.1.10/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/db/models/fields/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="1083" column="11" selection-start-line="1083" selection-start-column="10" selection-end-line="1083" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,9 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-          <folding>
-            <element signature="e#110#149#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#73#112#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,52 +794,282 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/kindeditor-4.1.10/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/kindeditor-4.1.10/kindeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="1172" column="34" selection-start-line="1172" selection-start-column="34" selection-end-line="1172" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/kindeditor-4.1.10/lang/zh-CN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/kindeditor-4.1.10/kindeditor-all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="1207" column="24" selection-start-line="1207" selection-start-column="24" selection-end-line="1207" selection-end-column="24" />
+          <folding>
+            <marker date="1481943573771" expanded="true" signature="34620:34633" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="46823:46836" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="65419:65432" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="72211:72217" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="81833:81851" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="81941:81970" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="82057:82079" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="82231:82255" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="82804:82817" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="89428:89442" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="100514:100570" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="109762:109775" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="115120:115171" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="143689:143707" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="143740:143765" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="149558:149583" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="150045:150067" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="150871:150883" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="150954:150960" ph="©" />
+            <marker date="1481943573771" expanded="true" signature="167579:167592" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="167774:167786" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="170462:170480" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="170675:170687" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="171188:171240" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="172094:172158" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="172704:172756" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="174949:174967" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="175692:175717" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="181645:181663" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="188247:188260" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="188341:188352" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="188465:188477" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="188482:188488" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="188573:188579" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="188862:188873" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="189120:189131" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="194304:194317" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="194418:194431" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="194513:194524" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="194646:194658" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="194663:194669" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="194948:194959" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="195344:195359" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="195473:195484" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="196134:196145" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="196270:196282" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="196394:196407" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="196453:196466" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="196735:196746" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="196862:196874" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="196895:196901" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="204682:204695" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="204764:204775" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="204878:204890" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="204895:204901" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="204985:204991" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="205267:205278" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="205396:205408" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="208896:208920" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="209641:209654" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="209740:209751" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="209866:209878" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="209975:209986" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="211816:211834" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="211988:212000" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="212230:212255" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="215259:215282" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="215499:215524" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="216888:216901" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="216982:216993" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="217106:217118" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="217123:217129" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="217214:217220" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="217503:217514" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="217760:217771" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="228905:228918" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="272939:272964" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="273951:273969" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="273992:274011" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="274085:274110" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="275328:275346" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="275408:275433" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="277281:277297" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="279829:279842" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="279931:279942" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="280098:280104" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="280325:280336" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="280494:280500" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="280658:280664" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="280785:280791" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="281057:281068" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="281233:281239" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="281458:281469" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="281900:281911" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="282079:282085" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="282276:282287" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="286745:286751" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="289101:289114" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="289207:289218" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="289376:289382" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="289540:289546" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="289667:289673" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="289928:289939" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="290782:290793" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="290961:290967" ph=" " />
+            <marker date="1481943573771" expanded="true" signature="291158:291169" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="301880:301898" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="302505:302552" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="303781:303799" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="303822:303841" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="303929:303954" ph="..." />
+            <marker date="1481943573771" expanded="true" signature="304599:304647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/kindeditor-4.1.10/kindeditor-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="55" column="424" selection-start-line="55" selection-start-column="422" selection-end-line="55" selection-end-column="424" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/kindeditor-4.1.10/kindeditor-all-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="380">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#640#672#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#60#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/contrib/staticfiles/templatetags/staticfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#27#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/all.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="5005" column="40" selection-start-line="5005" selection-start-column="40" selection-end-line="5005" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/script.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/kindeditor-4.1.10/config.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="195">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
           <folding>
-            <element signature="e#24#71#0" expanded="true" />
+            <element signature="e#24#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2121">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#511#517#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
